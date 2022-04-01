@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*{
+    background: black;
+    color: #E6E6E6;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.main{
+    box-sizing: border-box;
+}
+
+.banner{
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.banner h1{
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: 75px;
+    margin-top: 20px;
+}
+
+.navigation{
+    padding: 5px;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation ul li{
+    margin-left: 10px;
+}
+
+.navigation ul li a{
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    word-spacing: 2px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navigation ul li a:hover{
+    color: lime;
+    font-size: 40px;
+    padding-left: 40px;
+}
+
+.update{
+    padding: 20px;
+}
+
+.update h1{
+    color: red;
+    font-size: 40px;
+}
+
+.story-time{
+    display: flex;
+    justify-content: space-around;
+}
+
+.story-container{
+    width: 30%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    width: 100px;
+}
+
+.rating{
+    padding: 10px;
+}
+
+.rating h4{
+    color: red;
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+.story-card{
+    margin-top: 35px;
+    padding: 10px;
+}
+
+.story-title{
+    padding: 10px;
+}
+
+.story-title h3{
+    color: red;
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
+
+.story{
+    margin-top: 10px;
+    padding: 10px;
+    line-height: 22px;
+}
+
+.story p{
+    font-size: 22px;
+    line-height: 1.5em;
+    text-indent: 15px;
+}
+
+.continue{
+    margin-top: 2em;
+}
+
+button{
+    padding: 10px;
+    color: black;
+    background: red;
+    font-weight: bold;
+    font-size: 24px;
+    border: 0;
+}
+
+.fake-ad{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fake-ad video{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
